@@ -114,6 +114,7 @@ section {
 .why-us p {
   color: hsl(180, 100%, 83%);
   padding-right: 67px;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 100;
+  line-height: 22px;
 }
