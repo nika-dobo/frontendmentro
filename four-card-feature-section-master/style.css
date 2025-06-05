@@ -23,6 +23,8 @@ section {
   gap: 50px;
 }
 
+/* title */
+
 section .title {
   text-align: center;
   display: flex;
@@ -52,10 +54,64 @@ section .info {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 25px;
 }
 
-.info .box{
-    background-color: red;
-    width: 310px;
-    height: 200px;
+.info .box {
+  background-color: white;
+  width: 310px;
+  height: 200px;
+  box-shadow: 6px 4px 20px hsl(0, 0%, 89%);
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.info .box .text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.info .box .text h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+.info .box .text p {
+  font-size: 0.74rem;
+  font-weight: 400;
+  color: hsl(212, 6%, 44%);
+}
+
+.info .box .img {
+  display: flex;
+  margin-top: 20px;
+  justify-content: end;
+}
+
+.info .box .img img {
+  width: 50px;
+}
+
+.info .center {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.Builder {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.Karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.Supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.Calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
 }
