@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 15px;
 }
 section {
   width: 350px;
