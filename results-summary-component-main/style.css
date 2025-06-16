@@ -51,6 +51,7 @@ section .result .circle {
   align-items: center;
 }
 section .result .circle h2 {
+  margin-top: 23px;
   color: hsl(221, 100%, 96%);
   font-size: 4rem;
 }
@@ -97,7 +98,7 @@ section .summary .info .box {
 }
 
 section .summary .info .rec {
-  background-color: hsla(0, 100%, 67%, 0.25);
+  background-color: #fff6f7;
   font-size: 1rem;
 }
 
@@ -106,7 +107,7 @@ section .summary .info .rec h2 {
 }
 
 section .summary .info .mem {
-  background-color: hsla(39, 100%, 56%, 0.25);
+  background-color: #fffaf4;
   font-size: 1rem;
 }
 
@@ -115,7 +116,7 @@ section .summary .info .mem h2 {
 }
 
 section .summary .info .ver {
-  background-color: hsla(166, 100%, 37%, 0.25);
+  background-color: #f2fdf9;
   font-size: 1rem;
 }
 
@@ -124,7 +125,7 @@ section .summary .info .ver h2 {
 }
 
 section .summary .info .vis {
-  background-color: hsla(234, 85%, 45%, 0.25);
+  background-color: #f4f4fe;
   font-size: 1rem;
 }
 
@@ -133,7 +134,7 @@ section .summary .info .vis h2 {
 }
 
 section .summary .info p {
-  color: hsl(221, 100%, 96%);
+  color: #959da5;
 }
 
 section .summary .info b {
